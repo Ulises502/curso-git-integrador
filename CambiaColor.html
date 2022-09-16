@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">    
+    <script src="/scripts/snippet-javascript-console.min.js?v=1"></script>
+</head>
+<body>
+    <html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<body>
+    <h1> Si presionas el botón se invierten los colores</h1>
+    <h2> Te modifico el index yan</h1>
+ 
+  <br/>
+  <br/>
+  <input type="button" id="btnInvertirColores" value="Invertir colores" />
+</body>
+  </html>
+<script type="text/javascript">
+        // Evento click del boton
+        $("#btnInvertirColores").click(function(){
+        // Asigna o desasigna la clase black
+        $("body").toggleClass('black');
+        });
+    </script>
+</body>
+</html>

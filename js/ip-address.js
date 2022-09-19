@@ -6,7 +6,7 @@
  *
  *  @name IP addresses 
  *  @summary Sort IP addresses numerically
- *  @author Brad Wasson
+ *  @author cesar esteban
  *
  *  @example
  *    $('#example').dataTable( {

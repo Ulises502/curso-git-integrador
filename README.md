@@ -17,3 +17,7 @@ git fetch
 ```
 
 ![Imagen de una rama git](./images/imagen.png)
+
+***
+Modif por Veronica.-
+

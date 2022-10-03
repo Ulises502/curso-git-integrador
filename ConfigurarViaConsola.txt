@@ -1,0 +1,20 @@
+Configurar Via GitBash en W10
+
+    Kalu@DESKTOP-SJM0M96 MINGW64 ~/
+    $git version
+    git version 2.37.3.windows.1
+    Kalu@DESKTOP-SJM0M96 MINGW64 ~/
+    $git config --global user.name "Sergio Aramayo"
+    Kalu@DESKTOP-SJM0M96 MINGW64 ~/
+    $git config --global user.email ser.aramayo@gmail.com
+    //ya tienes que tener VScode instalado//
+    Kalu@DESKTOP-SJM0M96 MINGW64 ~/
+    $git config --global core.editor "code --wait"
+    //para ver como quedo tu configuracion de GIT bash//
+    Kalu@DESKTOP-SJM0M96 MINGW64 ~/
+    $git config --global -e
+    //Configuras salto de linea para W10 en GIT 
+    Kalu@DESKTOP-SJM0M96 MINGW64 ~/
+    $git config --global core.autocrlf true 
+
+    //Fin de configuracion de GIT Bash 
